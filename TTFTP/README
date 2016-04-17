@@ -1,0 +1,16 @@
+This project has been built using the Forte(TM) Java Development Environment
+from Sun.  This is for download available at http://www.sun.com/forte/ffj/ce/
+You should be able to use any other Java IDE fairly simply.
+Once you have compiled the source you can use the makettftp script to build
+the .tini file in the bin directory.
+
+At present, the .tini file produces a stand alone TFTP command program.
+Usage is as follows:
+
+java ttftp.tini get <host> <filename>
+java ttftp.tini put <host> <filename>
+
+$Log: README,v $
+Revision 1.1  2001/02/03 00:46:36  wilko
+Initial import
+

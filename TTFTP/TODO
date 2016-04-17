@@ -1,0 +1,8 @@
+Integrate with slush
+Create filesystem image/restore
+Add BOOTP support
+
+$Log: TODO,v $
+Revision 1.1  2001/02/03 00:45:43  wilko
+Initial import
+:

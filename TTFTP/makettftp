@@ -1,0 +1,12 @@
+#!/bin/sh
+cd src
+###  Change to suit your TINI installation
+export TINI_HOME=~paulw/tini1.01/
+###
+java -classpath $TINI_HOME/bin/tini.jar TINIConvertor -f com/wilko/ -o ../bin/ttftp.tini -d $TINI_HOME/bin/tini.db
+cd ..
+
+# $Log: makettftp,v $
+# Revision 1.2  2001/02/03 00:29:42  wilko
+# Update comments
+#
