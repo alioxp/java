@@ -106,7 +106,7 @@ public class TTFTPProcess extends Object {
                 } */
             }
             w.close();
-            f.close();
+            f.close(); 
         }
         catch (IOException  e)
         {

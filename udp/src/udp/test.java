@@ -6,7 +6,7 @@ import java.net.MulticastSocket;
 import java.net.InetAddress;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import it.sauronsoftware.ftp4j.*;
+import it.sauronsoftware.ftp4j.FTPClient;
 public class test {
 	
 	static FTPClient client = new FTPClient();
